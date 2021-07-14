@@ -41,6 +41,7 @@ function Trending() {
               release={c.release_date}
               date={c.first_air_date}
               poster={c.poster_path}
+              vote_average={c.vote_average}
             />
           ))
         }
